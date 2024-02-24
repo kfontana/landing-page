@@ -119,6 +119,47 @@ body {
   margin: 20px;
 }
 
+.call-to-action {
+  display: flex;
+  padding: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-call {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 80px;
+  gap: 20px;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0;
+}
+
+.call-text > p {
+  margin: 0;
+  padding: 0;
+}
+
+.call-text {
+  color: white;
+}
+
+.call-text-p1 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.container-call > button {
+  border: 1px solid white;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 0 30px;
+}
+
 .footer {
   background-color: #1f2937;
   margin: 0;
