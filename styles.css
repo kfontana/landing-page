@@ -69,6 +69,30 @@ body {
   list-style-type: none;
 }
 
+.information-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+  margin: 0;
+  gap: 20px;
+}
+
+.article-section {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  gap: 50px;
+  text-align: center;
+}
+
+.rounded-border {
+  width: 150px;
+  height: 150px;
+  border: solid 2px rgb(16, 135, 204);
+  border-radius: 10px;
+}
+
 .quote-section {
   display: flex;
   flex-direction: column;
