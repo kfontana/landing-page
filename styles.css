@@ -20,6 +20,11 @@ body {
   width: 70%;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .main-content {
   display: flex;
   align-items: center;
@@ -40,9 +45,15 @@ body {
 }
 
 .img-content {
+  display: flex;
   flex: 1;
   height: 200px;
   background-color: grey;
+  justify-content: center;
+}
+
+.img-content > p {
+  align-self: center;
 }
 
 .header > ul {
@@ -80,10 +91,12 @@ body {
 
 .article-section {
   display: flex;
-  flex-direction: row;
-  width: 50%;
-  gap: 50px;
   text-align: center;
+  flex-wrap: wrap;
+}
+
+.article-section > article {
+  width: 20%;
 }
 
 .rounded-border {
