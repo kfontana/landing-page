@@ -89,20 +89,33 @@ a {
   gap: 20px;
 }
 
+.information-section > h2 {
+  font-size: 32px;
+  margin-top: 0;
+}
+
 .article-section {
   display: flex;
-  text-align: center;
   flex-wrap: wrap;
+  gap: 50px;
 }
 
 .article-section > article {
-  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-section > article > p {
+  text-align: center;
+  width: 150px;
+  color: grey;
 }
 
 .rounded-border {
-  width: 150px;
-  height: 150px;
-  border: solid 2px rgb(16, 135, 204);
+  width: 130px;
+  height: 130px;
+  border: solid 4px rgb(16, 135, 204);
   border-radius: 10px;
 }
 
